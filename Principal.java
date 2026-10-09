@@ -15,3 +15,6 @@ public class Principal {
         System.out.println(c2.getTitular() + ": " + c2.getSaldo());
     }
 }
+
+// O que nós acabamos de fazer foi criar dois objetos independentes da classe Conta, cada um com seus próprios valores de atributos. 
+// O objeto c1 tem o titular "Ana" e um saldo de 150, enquanto o objeto c2 tem o titular "Carlos" e um saldo de 200.
