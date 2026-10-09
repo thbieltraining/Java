@@ -24,3 +24,9 @@ public class Conta {
     }
 }
 
+/* Objetos */
+// Podemos ver que a classe "Conta" define os atributos e métodos que um objeto do tipo "Conta" terá.
+// Para criar um objeto a partir da classe, usamos a palavra-chave "new" seguida do nome da classe e parênteses. Por exemplo, podemos criar um objeto "minhaConta" da classe "Conta" assim:
+// Conta minhaConta = new Conta();  
+
+// Bora ver isso melhor no próximo arquivo.
