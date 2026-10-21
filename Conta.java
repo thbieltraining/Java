@@ -21,6 +21,10 @@ public class Conta {
         return saldo;
     }
 
+    public double calcularRendimento() {
+        return 0;
+    }
+
     public void depositar(double valor) {
         if (valor > 0) {                  // controle: regra de negócio
             saldo = saldo + valor;
