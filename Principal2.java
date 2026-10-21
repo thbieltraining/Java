@@ -27,4 +27,5 @@ public class Principal2 {
     }
 }
 
-// A classe ContaPoupanca herda da classe Conta, o que significa que ela possui todos os atributos e métodos da classe Conta, além de seus próprios atributos e métodos específicos.
+// A classe ContaPoupanca herda os métodos públicos de Conta e também pode definir seus próprios métodos e atributos.
+// Os atributos titular e saldo são privados, então são acessados pelos métodos públicos de Conta, não diretamente pela subclasse.

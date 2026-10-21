@@ -13,4 +13,4 @@ class PolimorfismoSuper extends Conta {
 	}
 }
 // Aqui estamos criando uma subclasse chamada PolimorfismoSuper que herda da classe Conta.
-// Podemos notarr também que o método depositar foi sobrescrito na subclasse PolimorfismoSuper, adicionando um comportamento extra antes e depois de chamar o método depositar da superclasse Conta.
+// Podemos notar também que o método depositar foi sobrescrito na subclasse PolimorfismoSuper, adicionando um comportamento extra antes e depois de chamar o método depositar da superclasse Conta.
