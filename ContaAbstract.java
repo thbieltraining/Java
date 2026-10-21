@@ -27,3 +27,8 @@ public abstract class ContaAbstract {
 	public abstract double calcularRendimento();
 }
 
+// Em um conceito amplo , uma classe abstrata é como um esqueleto que define a estrutura e o comportamento esperado de suas subclasses.
+
+// No nosso modelo conta: Um método abstrato tem só a assinatura, sem corpo (sem chaves, termina em ;). Ele diz “toda conta tem uma descrição”, mas não diz qual: quem decide é cada subclasse.
+// A regra: toda subclasse concreta é obrigada a implementar os métodos abstratos da mãe. 
+// Se a ContaPoupanca esquecer de escrever descricao(), o código não compila
