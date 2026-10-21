@@ -5,7 +5,7 @@ public class ContaPoupanca extends Conta {
         this.taxaRendimento = taxaRendimento;
     }
 
-    @Override
+    @Override // sobrescrevendo o método calcularRendimento da classe Conta
     public double calcularRendimento() {
         if (taxaRendimento > 0) {
             return getSaldo() * taxaRendimento;
