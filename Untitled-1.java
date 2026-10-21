@@ -1,23 +1,16 @@
-// E agora sobre Polimorfismo
-// Polimorfismo é um conceito que permite que objetos de diferentes classes sejam tratados como objetos de uma classe comum.
-// Isso é possível porque as classes podem compartilhar uma interface comum ou herdar de uma classe base.
+class PolimorfismoSuper extends Conta {
+	@Override
+	public void depositar(double valor) {
+		System.out.println("PolimorfismoSuper.depositar: antes de chamar super");
+		super.depositar(valor);
+		System.out.println("PolimorfismoSuper.depositar: depois de chamar super. Saldo: " + getSaldo());
+	}
 
-class Polimorfismo {
 	public static void main(String[] args) {
-		Conta contaComum = new Conta();
-		contaComum.setTitular("Ana");
-		contaComum.depositar(1000);
-
-		Conta contaPoupanca = new ContaPoupanca(0.05);
-		contaPoupanca.setTitular("Carlos");
-		contaPoupanca.depositar(1000);
-
-		Conta[] contas = { contaComum, contaPoupanca };
-
-		for (Conta conta : contas) {
-			System.out.println(conta.getTitular() + " receberia de rendimento: "
-					+ conta.calcularRendimento());
-		}
+		Conta conta = new PolimorfismoSuper();
+		conta.setTitular("Ana");
+		conta.depositar(300);
 	}
 }
-
+// Aqui estamos criando uma subclasse chamada PolimorfismoSuper que herda da classe Conta.
+// Podemos notarr também que o método depositar foi sobrescrito na subclasse PolimorfismoSuper, adicionando um comportamento extra antes e depois de chamar o método depositar da superclasse Conta.
