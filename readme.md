@@ -160,9 +160,9 @@ O objetivo é construir uma base sólida em **programação orientada a objetos*
 
 | Módulo | Status |
 |---------|--------|
-| Paradigmas e Introdução à POO | 🟡 Em andamento |
-| Encapsulamento | ⚪ Pendente |
-| Herança, Polimorfismo e Interfaces | ⚪ Pendente |
+| Paradigmas e Introdução à POO | 🟢 OK |
+| Encapsulamento | 🟢 OK |
+| Herança, Polimorfismo e Interfaces | 🟢 OK |
 | Coleções | ⚪ Pendente |
 | Conjuntos, Mapas e Generics | ⚪ Pendente |
 | Tratamento de Exceções | ⚪ Pendente |
