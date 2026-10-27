@@ -163,7 +163,7 @@ O objetivo é construir uma base sólida em **programação orientada a objetos*
 | Paradigmas e Introdução à POO | 🟢 OK |
 | Encapsulamento | 🟢 OK |
 | Herança, Polimorfismo e Interfaces | 🟢 OK |
-| Coleções | ⚪ Pendente |
+| Coleções | 🟢 OK  |
 | Conjuntos, Mapas e Generics | ⚪ Pendente |
 | Tratamento de Exceções | ⚪ Pendente |
 | Serialização, Threads e Redes | ⚪ Pendente |
