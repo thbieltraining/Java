@@ -6,6 +6,8 @@ Este projeto documenta minha evolução no estudo dos principais conceitos da Pr
 
 O objetivo é construir uma base sólida em **programação orientada a objetos**, desenvolvendo organização de código, reutilização, abstração e capacidade de modelar problemas do mundo real utilizando Java.
 
+> Acesse o [guia principal da trilha de aprendizagem](Trilha/README.md) para acompanhar a sequência dos estudos e abrir os arquivos relacionados.
+
 ---
 
 ## 🎯 Objetivos
