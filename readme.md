@@ -166,7 +166,7 @@ O objetivo é construir uma base sólida em **programação orientada a objetos*
 | Encapsulamento | 🟢 OK |
 | Herança, Polimorfismo e Interfaces | 🟢 OK |
 | Coleções | 🟢 OK  |
-| Conjuntos, Mapas e Generics | ⚪ Pendente |
+| Conjuntos, Mapas e Generics | 🟢 OK  |
 | Tratamento de Exceções | ⚪ Pendente |
 | Serialização, Threads e Redes | ⚪ Pendente |
 
